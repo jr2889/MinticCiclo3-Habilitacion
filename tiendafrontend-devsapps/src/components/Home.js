@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {Login} from "../components/Login/logingoogle"
 import ventas from './ventas.png'
+import devsapps from './Logo2.png'
 import "semantic-ui-css/semantic.min.css";
 
 import {
@@ -23,6 +24,7 @@ class App extends Component {
           <Grid.Column style={{ maxWidth: 450 }}>
           
           <img src={ventas} className="photo"  alt="ventasLogo" />;
+          <img src={devsapps} className="photo"  alt="devsappsLogo" />;
             <Header as="h2" color="teal" textAlign="center">
              
               Ingreso a la Aplicacion
