@@ -28,8 +28,9 @@ render(){
     return(  
 
         <GoogleLogin
-    clientId="602582959034-if211k4vqhn11e7as804f2jm7jfb144d.apps.googleusercontent.com"
-    //clientId="1009352706675-18qvmg72j2m44klk25j7kufrp1jamvpr.apps.googleusercontent.com"
+        
+    clientId="602582959034-if211k4vqhn11e7as804f2jm7jfb144d.apps.googleusercontent.com" localhost
+    //clientId="602582959034-vc1chchi9jfm0smqgu1831br6f04trih.apps.googleusercontent.com"
     buttonText="Accede"
     onSuccess={this.responseGoogle }
     onFailure={this.responseGoogle}
